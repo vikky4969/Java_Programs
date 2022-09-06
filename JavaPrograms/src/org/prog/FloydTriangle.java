@@ -1,12 +1,12 @@
 package org.prog;
 
 public class FloydTriangle {
-public void floydtriangle() {
+public void triangle() {
 	for(int i=1;i<=7;i++) {
 		for(int j=1;j<=i;j++) {
-			System.out.print(j+" ");
+			System.out.print("* ");
 		}
-		System.out.println("\n");
+		System.out.println();
 	}
 }
 public void Iteratetriangle() {
@@ -17,20 +17,21 @@ public void Iteratetriangle() {
 			startingnumber=	startingnumber+1;
 		}
 	
-		System.out.println("\n");
+		System.out.println();
 	}
 }
-public void Reversefloydtriangle() {
-	for(int i=7;i>=1;i--) {
-		for(int j=1;j<=i;j++) {
-			System.out.print(j+" ");
+public void Reversetriangle() {
+	for(int i=1;i<=7;i++) {
+		for(int j=i;j<=7;j++) {
+			System.out.print("* ");
 		}
-		System.out.println("\n");
+		System.out.println();
 	}
 }
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 FloydTriangle fl=new FloydTriangle();
-fl.Iteratetriangle();
+fl.triangle();
 	}
 }

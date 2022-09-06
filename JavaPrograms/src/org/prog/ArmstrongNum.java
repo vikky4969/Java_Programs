@@ -12,10 +12,10 @@ public class ArmstrongNum {
 			n=n/10;
 		}
 		if(a==j) {
-			System.out.println(a+" is a Armstrong Number");
+			System.out.println(a+" is a \"Armstrong\" Number");
 		}
 		else {
-			System.out.println(a+" is not a Armstrong Number");
+			System.out.println(a+" is not a \"Armstrong\" Number");
 		}
 	}
 
